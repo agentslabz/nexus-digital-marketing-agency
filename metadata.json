@@ -1,0 +1,6 @@
+{
+  "name": "Nexus Digital Marketing Agency",
+  "description": "A comprehensive digital marketing agency website with service packages, portfolio case studies, interactive project cost calculator, blog, and client dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
