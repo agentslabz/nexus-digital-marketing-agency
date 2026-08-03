@@ -30,42 +30,51 @@ A modern, full-featured website for a digital marketing agency — built with Re
 
 ### Installation
 
-\`\`\`bash
-# Clone the repository
+Clone the repository:
+```bash
 git clone https://github.com/agentslabz/nexus-digital-marketing-agency.git
+```
 
-# Navigate into the project
+Navigate into the project:
+```bash
 cd nexus-digital-marketing-agency
+```
 
-# Install dependencies
+Install dependencies:
+```bash
 npm install
+```
 
-# Set up environment variables
+Set up environment variables:
+```bash
 cp .env.example .env
-# Then fill in your actual keys in .env
+```
+Then fill in your actual keys in `.env`
 
-# Start the development server
+### Start the development server
+
+```bash
 npm run dev
-\`\`\`
+```
 
 The app should now be running at `http://localhost:5173` (or the port shown in your terminal).
 
 ## 📁 Project Structure
 
-\`\`\`
+```
 nexus-digital-marketing-agency/
 ├── src/
 │   ├── components/     # Reusable UI components (Navbar, Footer, Modals, etc.)
 │   ├── context/        # React Context providers (Auth, Theme, Toast)
-│   ├── data/           # Mock/static data
-│   ├── pages/          # Route-level pages (Home, About, Services, etc.)
-│   ├── types.ts        # Shared TypeScript types
+│   ├── data/            # Mock/static data
+│   ├── pages/           # Route-level pages (Home, About, Services, etc.)
+│   ├── types.ts         # Shared TypeScript types
 │   ├── App.tsx
 │   └── main.tsx
-├── server.ts            # Backend server
+├── server.ts             # Backend server
 ├── vite.config.ts
 └── package.json
-\`\`\`
+```
 
 ## 🔑 Environment Variables
 
